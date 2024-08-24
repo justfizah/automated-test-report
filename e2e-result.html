@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E2E Test Results</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        table, th, td { border: 1px solid black; }
+        th, td { padding: 10px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .passed { background-color: #c8e6c9; }
+        .failed { background-color: #ffcdd2; }
+        .warning { background-color: #fff59d; }
+    </style>
+</head>
+<body>
+    <h1>E2E Test Results</h1>
+    <table>
+        <tr>
+            <th>Step</th>
+            <th>Status</th>
+            <th>Response Time</th>
+            <th>Message</th>
+        </tr>
+        
+        <tr class="passed">
+            <td>Login Functionality</td>
+            <td>Passed</td>
+            <td>6869 ms</td>
+            <td>undefined</td>
+        </tr>
+        <tr class="passed">
+            <td>Handle Profile Picture</td>
+            <td>Passed</td>
+            <td>852 ms</td>
+            <td>undefined</td>
+        </tr>
+        <tr class="failed">
+            <td>Parent Personalization Form Submission</td>
+            <td>Failed</td>
+            <td>31801 ms</td>
+            <td>undefined</td>
+        </tr>
+        <tr class="failed">
+            <td>Permission Page Interaction</td>
+            <td>Failed</td>
+            <td>34299 ms</td>
+            <td>undefined</td>
+        </tr>
+    </table>
+</body>
+</html>
