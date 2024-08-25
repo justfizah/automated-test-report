@@ -1,45 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Reports</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        .report-links {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 40px;
-        }
-        .report-links a {
-            text-decoration: none;
-            color: white;
-            background-color: #007BFF;
-            padding: 15px 25px;
-            border-radius: 5px;
-            font-size: 18px;
-            transition: background-color 0.3s;
-        }
-        .report-links a:hover {
-            background-color: #0056b3;
-        }
-    </style>
-</head>
-<body>
-    <h1> Test Reports</h1>  
-    <h4> <center> Homework Ai Parent Page section </center> </h4>
-    <div class="report-links">
-        <a href="e2e-result.html" target="_blank">View E2E TestReport </a>
-        <a href="regression-result.html" target="_blank">View Regression Test Report </a>
-    </div>
-</body>
-</html>
+[
+  {
+    "step": "Login Functionality",
+    "status": "Passed",
+    "responseTime": "8788 ms",
+    "message": ""
+  },
+  {
+    "step": "Handle Profile Picture",
+    "status": "Passed",
+    "responseTime": "802 ms",
+    "message": ""
+  },
+  {
+    "step": "Overall Test Execution",
+    "status": "Failed",
+    "responseTime": "0 ms",
+    "message": "Unexpected error: page.click: Timeout 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('select[name=\"childAge\"]')\u001b[22m\n"
+  }
+]
